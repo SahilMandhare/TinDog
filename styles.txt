@@ -1,0 +1,205 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Heading */
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.section-heading{
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+/* Navbar Section */
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Download Button */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.google-play-btn:hover > .google-play {
+  filter: contrast(0%);
+}
+
+.iphone-dog {
+  transform: rotate(25deg);
+  width: 22%;
+  position: absolute;
+  right: 25%;
+}
+
+/* Feature Section */
+
+#features {
+  padding: 7% 15%;
+  margin: 0;
+  background-color: white;
+  position: relative;
+}
+
+.feature-div {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feature-icon {
+  color: #ef8172;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  color: white;
+}
+
+.testimonials-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press Section */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding: 0 0 3% 0;
+}
+
+.press-logo {
+  width: 15%;
+  padding: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Call to Action */
+
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-btn:hover > .google-play {
+  filter: contrast(0%);
+}
+
+.cta-heading {
+  font-size: 3rem;
+  color: white;
+}
+
+/* Footer */
+
+#footer {
+  padding: 5% 15%;
+  text-align: center;
+}
+
+.footer-link {
+  padding: 20px;
+}
+
+.footer-link a {
+  all: unset;
+  cursor: pointer;
+}
+
+.footer-link a:hover {
+  color: #ff4c68;
+}
+
+.footer-link i {
+  padding: 10px;
+}
+
+@media (max-width: 1080px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone-dog {
+    position: static;
+    width: 55%;
+    transform: rotate(0);
+  }
+}
+
+
