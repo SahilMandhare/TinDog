@@ -1,3 +1,3 @@
-#TinDog Website
+TinDog Website
 
 Website : https://sahilmandhare.github.io/TinDog/
